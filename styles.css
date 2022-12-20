@@ -1,6 +1,27 @@
+header {
+    width: 100%;
+    background-color: tan;
+}
+
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:#333;
+}
+
+li {
+    display:inline;
+}
+
+#project1 {
+    background-color: darkolivegreen;
+}
+
+#project2 {
+    background-color: forestgreen;
+}
+
+#project3 {
+    background-color: lightgreen;
 }
 
 .boxy {
@@ -10,9 +31,6 @@ body {
     width:300px;
 }
 
-/* .rotatey {
-    transform: rotate(90deg);
-} */
 .container {
     display: flex;
     flex-direction: row;
