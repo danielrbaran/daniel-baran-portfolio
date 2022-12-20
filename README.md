@@ -10,7 +10,7 @@
 
 ## Description 
 
-[Visit the Deployed Site](https://youtu.be/BFyeuLhjcPY)
+[Visit the Deployed Site](https://www.google.com)
 
 This basic portfolio organizes and links to the work I've done so far in the Berkeley Full Stack Web Development Bootcamp.  This page will be updated regularly as I work thorugh the course material.
 
@@ -37,7 +37,7 @@ I'm aware of the vastness of what I don't know, however in the past week I've:
 ### Daniel Baran
 
 
-* [Portfolio](https://youtu.be/bHX54GCrDB4)
+* [Portfolio](https://www.google.com)
 * [LinkedIn](https://www.linkedin.com/in/danielbaran/)
 * [Github](https://github.com/danielrbaran)
 
