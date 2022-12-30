@@ -31,16 +31,23 @@ main {
 }
 
 .project {
-    flex: 1 0 20%;
+    flex: 1 0 auto;
     border-color: black;
     border-width: 1px;
     border-style: solid;
+    margin: 10px;
 }
 
 .project header {
     background:dimgrey;
 }
 
-.featured-project {
-    flex: 2 0 80%;
+#featured-project {
+    flex: 2 0 100%;
+    /* gap: 500px; */
+    background: crimson;
+}
+
+#featured-project header {
+    color: white;
 }
