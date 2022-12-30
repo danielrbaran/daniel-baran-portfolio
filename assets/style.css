@@ -1,15 +1,23 @@
+.headerContainer {
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+    margin: 0 auto;
+    background: #666;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
 .project {
     border-color: black;
     border-width: 1px;
     border-style: solid;
 }
-
-header {
-
-    background: aqua;
-}
-
-li {
-    display: inline;
-}
-
