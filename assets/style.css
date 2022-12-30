@@ -1,0 +1,15 @@
+.project {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+header {
+
+    background: aqua;
+}
+
+li {
+    display: inline;
+}
+

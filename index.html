@@ -1,45 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Daniel Baran Portfolio</title>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./styles.css" />
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>testing stuff</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet'  href="./assets/style.css">
 </head>
-
 <body>
-    <header>
-        <h1>DanB Portfolio</h1>
-        <nav>
-            <ul>
-                <li id="project1">Project 1</li>
-                <li id="project2">Project 2</li>
-                <li id="project3">Project 3</li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <img src="/assets/wb image.jpg" alt="temp image" style="height: 200px;">
+    <div class="top-nav">
+    <nav>
+        <ul>
+            <li>All Stuff</li> <!-- all project cards -->
+            <li>This Stuff</li> <!-- cards of type 1 -->
+            <li>That Stuff</li> <!-- cards of type 2 -->
+            <li>Profile</li>
+        </ul>
+    </div>
+    </nav>
+</header>
 
+<!-- I guess in this case 'section' means all the project cards.  I still don't know why they couldn't just be divs -->
+<section id="featured-project" class="project">
+    <h2>featured project</h2>
+</section>
 
-    
-    <div class="container">
-    <div class="flexy flexy1"> 
-        <h1>Flexy Flexy Bo Bexy</h1>
-    </div>
-    <div class="flexy flexy2"> 
-        <h1>Me Mi Mo Mexy</h1>
-    </div>
-    <div class="flexy flexy3"> 
-        <h1>Fi Fi Fo Fexy</h1>
-    </div>
-    <div class="flexy flexy4"> 
-        <h1>Flexy</h1>
-    </div>
-    </div>
-    
-    <div class="footer">
-    <small>Copyright 2022 <a href="https://google.com">Mill Valley Collective</a></small>
-    </div>
+<!-- I think I'll need project-type for filtering when I get to that point -->
+<section class="project project-type1">
+    <h2>some project of type 1</h2>
+</section>
+
+<section class="project project-type1">
+    <h2>some other project that's also of type 1</h2>
+</section>
+
+<section class="project project-type2">
+    <h2>some project of type 2</h2>
+</section>
     
 </body>
-
-
 </html>
